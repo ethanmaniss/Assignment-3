@@ -40,7 +40,19 @@ int main(int argc, char **argv)
 
     while(userChoice == 'y' || userChoice == 'Y')
     {
-        
+        int lineCount = 0;
+
+        while(!thing.nextLine() == NULL)
+        {
+            lineCount++;
+        }
+
+        cout << lineCount << " lines of code in this file." << endl;
+
+        for(int i = 0; i < lineCount; i++)
+        {
+            
+        }
 
         cout << "Would you like to analyze another file?" << endl;
         cout << "Enter 'y' for yes or any other character for no." << endl;
