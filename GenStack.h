@@ -119,9 +119,3 @@ int GenStack<E>::getSize()
 {
     return size;
 }
-
-template <typename E>
-void GenStack<E>::syntaxCheck()
-{
-    
-}

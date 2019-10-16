@@ -27,6 +27,8 @@ int main(int argc, char **argv)
 
         }
 
+        infile.close(); // close stream to file
+
         cout << "Would you like to analyze another file?" << endl;
         cout << "Enter 'y' for yes or any other character for no." << endl;
         cin >> userChoice;
